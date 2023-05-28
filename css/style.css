@@ -1,0 +1,353 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    color: white !important;
+}
+#background{
+    background: url(../images/background_color_image.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.background{
+    background: url(../images/background_desing.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+
+
+#menubar{}
+.menubar{}
+.menubar .logo{}
+.menubar .logo img{}
+.menubar ul{}
+.menubar ul li{
+    margin: 0px 20px;
+}
+.menubar ul li a{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500 !important;
+}
+.menubar form{}
+.menubar form input{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff !important;
+    border-radius: 40px;
+    outline: none;
+}
+.menubar .icon{
+    
+}
+.menubar .icon i{
+    font-size: 30px;
+    border: 50%;
+    margin: 0px 10px;
+}
+
+
+
+
+
+
+
+
+#branding{
+    margin: 5vw 0vw;
+}
+.branding{}
+.branding .branding_content{}
+.branding .branding_content h1{
+    font-family: 'Audiowide', cursive;
+    font-size: 7vw;
+}
+.branding .branding_content h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vw;
+}
+.branding .branding_content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+}
+.branding .branding_content button{
+    width: 17vw;
+    padding: 8px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+}
+.branding .branding_content button:hover{
+    background: #fff;
+    color: #171777;
+}
+.branding .brandng_image{}
+.branding .brandng_image img{}
+
+
+
+
+
+#smart_home{
+    margin-top: 8vw;
+}
+.smart_home{}
+.smart_home .smart_home_image{}
+.smart_home .smart_home_image img{}
+.smart_home .smart_home_content{
+    margin-top: 14vw;
+}
+.smart_home .smart_home_content h1{
+    font-family: 'Audiowide', cursive;
+    font-size: 4vw;
+}
+.smart_home .smart_home_content h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+}
+.smart_home .smart_home_content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    margin-top: 4vw;
+}
+
+
+
+
+
+
+
+#services{
+    background: url(../images/icon_backaground.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.servisec{
+    text-align: center;
+    padding: 5vw 0vw;
+}
+.servisec .service_card{
+    padding: 15px;
+}
+.servisec .service_card i{
+    font-size: 8vw;
+}
+.servisec .service_card h2{
+    margin: 3vw 0vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.servisec .service_card p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+}
+
+
+
+
+
+
+
+
+#type{}
+.type{
+    text-align: center;
+}
+.type .type_title{}
+.type .type_title h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5vw;
+    letter-spacing: 8px;
+    margin-bottom: 70px;
+}
+.type .type_card{
+    padding: 5vw 0vw;
+    background: url(../images/type_background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 30px;
+    margin: auto;
+}
+.type_card_image{
+    width: 80%;
+    height: 150px;
+    margin: auto;
+}
+.type .type_card img{}
+.type .type_card h2{
+    margin-top: 173px;
+    font-family: 'Audiowide', cursive;
+}
+.type .type_card p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+}
+.type .type_card button{
+    font-family: 'Montserrat', sans-serif;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px 25px;
+    border-radius: 25px;
+}
+.type .type_card button:hover{
+    background: #fff;
+    color: #b00c86;
+}
+.type_bottom_content{
+    margin-top: 8vw;
+    margin-bottom: 15vw;
+}
+.type_bottom_content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+}
+
+
+
+
+
+#smart_home_two{}
+.smar_home_two{}
+.smar_hom_tow_image{}
+.smar_hom_tow_image img{}
+.smart_home_two_content{}
+.smart_home_two_content h1{
+    font-family: 'Audiowide', cursive;
+    font-size: 5vw;
+    margin-bottom: 40px;
+}
+.smart_home_two_content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+}
+.smart_home_two_content button{
+    width: 17vw;
+    padding: 8px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    font-size: 1.5vw;
+    font-family: Montserrat, sans-serif;
+}
+
+
+
+
+
+
+#monitor_home{
+    margin-top: 15vw;
+}
+.monitor_home{}
+.monitor_home_content{}
+.monitor_home_content h1{
+    font-family: 'Audiowide', cursive;
+    font-size: 5vw;
+    margin-bottom: 4vw;
+}
+.monitor_home_content li{
+    font-family: Montserrat, sans-serif;
+    margin: 2vw 0vw;
+    font-size: 1.5vw;
+}
+.monitor_home_content h3{
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 5px;
+}
+.monitor_home_content p{
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 5px;
+}
+.monitor_home_content h2{
+    font-family: Montserrat, sans-serif;
+    font-size: 5vw;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.monitor_home_content input{
+    margin: 10px;
+    outline: none;
+    border: 2px solid #fff;
+    padding: 15px;
+    color: #fff;
+    background: transparent;
+}
+.monitor_home_image{}
+.monitor_home_image img{}
+
+
+
+
+
+
+#about_us{
+    margin-top: 15vw;
+    margin-bottom: 8vw;
+}
+.about_us{}
+.about_us_image{}
+.about_us_image img{}
+.about_us_content{}
+.about_us_content h1{
+    font-family: Montserrat, sans-serif;
+    font-size: 5vw;
+    font-weight: 700;
+}
+.about_us_content p{
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5vw;
+    line-height: 35px;
+}
+
+
+
+
+
+#check_what{
+    background: url(../images/Check_what_your_house_background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.check_what{
+    text-align: center;
+    padding: 3vw 0vw;
+}
+.check_what_title{}
+.check_what_title h1{
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 5px;
+    margin-bottom: 5vw;
+}
+.check_what_iamge{
+    margin-bottom: 5vw;
+}
+.check_what_iamge img{
+    margin: auto;
+}
+
+
+
+
+
+#fooder{
+    background: url(../images/fooder_background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -50px;
+}
+.fooder{
+    padding-top: 10vw;
+    padding-bottom: 15vw;
+}
+.fooder h3{}
+.fooder p{}
